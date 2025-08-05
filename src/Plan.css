@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card-header h3 {
+  font-weight: 700;
+}
+
+.table-bordered th, .table-bordered td {
+  vertical-align: middle;
+}
+
+.card {
+  transition: transform 0.2s;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.list-group-item {
+  border: none;
+  padding-left: 0;
+}
+
+.list-group-item b {
+  color: #007bff;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .table {
+        font-size: 0.8rem;
+    }
+
+    .table td, .table th {
+        padding: 0.5rem 0.25rem;
+    }
+
+    .container {
+        margin-top: 2rem !important;
+    }
+}
+
